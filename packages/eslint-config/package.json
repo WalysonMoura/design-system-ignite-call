@@ -1,12 +1,11 @@
 {
-  "name": "eslint-config",
+  "name": "@ignite-ui/eslint-config",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^9.1.1"
+  }
 }
