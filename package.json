@@ -2,9 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo build"
+    "build": "turbo build",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "turbo": "^1.13.3"
-  }
+    "@turbo/gen": "^1.13.3",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+  },
+  "name": "ignite-ui"
 }
